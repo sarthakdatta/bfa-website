@@ -1,7 +1,6 @@
 "use client"
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import {
   Carousel,
   CarouselContent,
@@ -10,10 +9,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
-import { useEffect, useState } from "react";
-import useEmblaCarousel from 'embla-carousel-react';
-import { Banknote, CircleDollarSign, HandHelping, InstagramIcon, MapPin } from "lucide-react";
+import { CircleDollarSign, HandHelping, InstagramIcon, MapPin } from "lucide-react";
+import Image from "next/image";
+
 
 const sections = [
   {
@@ -54,7 +52,7 @@ export default function Home() {
           <Carousel>
             <CarouselContent>
               <CarouselItem className="flex justify-center items-center">
-                <img src="/logo.png" alt="Logo" className="w-68 h-68 object-contain" />
+                <Image src="/logo.png" alt="Logo" className="w-68 h-68 object-contain" />
               </CarouselItem>
               <CarouselItem>...</CarouselItem>
               <CarouselItem>...</CarouselItem>
@@ -92,7 +90,8 @@ export default function Home() {
 
             {/* Right: Image */}
             <div className="w-1/3">
-              <img className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" />
+              <Image className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" alt=""/>
+              
             </div>
           </div>
         ))}

@@ -1,4 +1,3 @@
-import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarSeparator, MenubarShortcut } from './ui/menubar';
 import { Button } from './ui/button'; // Import the Button component
 
 export default function CustomMenu() {
