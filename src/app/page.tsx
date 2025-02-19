@@ -36,7 +36,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hover:underline hover:text-primary"
             
-            > Saint John's Program for Real Change</a>
+            > Saint John&apos;s Program for Real Change</a>
             
             <p className="text-xl">(est. 2025)</p>
           </h2>
