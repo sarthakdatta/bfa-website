@@ -29,7 +29,16 @@ export default function Home() {
             Helping underprivileged kids reach their potential
           </h1>
           <h2 className="text-secondary-foreground text-2xl mt-4">
-            Local nonprofit located in <b><i>Folsom, California </i></b> <br></br><p className="text-xl">(est. 2025)</p>
+            Local nonprofit located in <b><i>Folsom, California</i></b>. <br></br>Partnered with
+            <a 
+            href="https://saintjohnsprogram.org/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline hover:text-primary"
+            
+            > Saint John's Program for Real Change</a>
+            
+            <p className="text-xl">(est. 2025)</p>
           </h2>
 
           <br></br>
@@ -48,7 +57,7 @@ export default function Home() {
           <Carousel>
             <CarouselContent>
               <CarouselItem className="flex justify-center items-center">
-                <Image src="/logo.png" alt="Logo" className="w-68 h-68 object-contain" />
+                <Image src="/logo.png" alt="Logo" width ={500} height={500} className="w-68 h-68 object-contain" />
               </CarouselItem>
               <CarouselItem>...</CarouselItem>
               <CarouselItem>...</CarouselItem>
@@ -86,7 +95,7 @@ export default function Home() {
 
             {/* Right: Image */}
             <div className="w-1/3">
-              <Image className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" alt="Saint Johns Image" />
+              <Image className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" alt="Saint Johns Image" width ={1000} height={666}/>
             </div>
           </div>
         ))}
