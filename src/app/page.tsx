@@ -10,8 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
 import { CircleDollarSign, HandHelping, InstagramIcon, MapPin } from "lucide-react";
-import Image from "next/image";
-
+import Image from "next/image"; // Keep this import
 
 const sections = [
   {
@@ -19,9 +18,6 @@ const sections = [
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
 ];
-
-
-
 
 export default function Home() {
   return (
@@ -90,8 +86,7 @@ export default function Home() {
 
             {/* Right: Image */}
             <div className="w-1/3">
-              <Image className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" alt=""/>
-              
+              <Image className="w-full h-auto rounded-md" src="/saintjohnsimg.jpg" alt="Saint Johns Image" />
             </div>
           </div>
         ))}
@@ -122,10 +117,6 @@ export default function Home() {
           </Button>
         </div>
       </div>
-
-
-
-
 
       <footer className="bg-primary mt-11">
         <div className="container mx-auto px-6 py-8">
