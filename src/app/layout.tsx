@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(outfit.className)}>
+      <body className={clsx(outfit.className, "text-primary-foreground")}>
         <Navbar /> {/* Add Navbar here */}
         {children} {/* This will render the page content */}
       </body>
