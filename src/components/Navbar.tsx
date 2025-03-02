@@ -13,7 +13,7 @@ export default function CustomMenu() {
 
             {/* Right Section - Navigation Buttons */}
             <div className="flex space-x-4 text-primary-foreground">
-                <Link href="#mission">
+                <Link href="/">
                 <Button className="text-xl" variant="ghost">
                     Our Mission
                 </Button>

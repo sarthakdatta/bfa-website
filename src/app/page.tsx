@@ -139,7 +139,7 @@ export default function Home() {
             <div className="w-full md:w-2/3 text-center md:text-left">
               <h1 className="text-2xl md:text-3xl text-primary-foreground font-bold">Bright Futures Academy</h1>
               <h2 className="text-lg md:text-xl mt-4 md:mt-11 text-primary-foreground">Contact Info:</h2>
-              <p className="text-base md:text-lg mt-2 text-primary-foreground">Email: support@bfa.com</p>
+              <p className="text-base md:text-lg mt-2 text-primary-foreground">Email: FolsomBFA@gmail.com</p>
               <p className="text-base md:text-lg mt-2 text-primary-foreground">Phone Number: +1 916-365-2292</p>
             </div>
 

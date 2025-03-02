@@ -8,19 +8,19 @@ const founders = [
   {
     name: "Sarthak Datta",
     role: "Co-Founder",
-    description: "Hey there! I'm Sarthak. I have lots of experience teaching as I have volunteering and teaching nuero-diverse kids math for almost 2 years.",
+    description: "Hey there! I'm Sarthak. I have lots of experience teaching as I have volunteering and teaching nuero-diverse kids math for almost 2 years and excel academically.",
     image: "/sarthak.png", // Replace with your image path
   },
   {
     name: "Rishan Kayal",
     role: "Co-Founder",
-    description: "Hi, I'm Rishan! I have experience teaching math at summer camps and excel in school mantaining high grades.",
+    description: "Hello! I’m Rishan and have lots of experience tutoring middle schoolers. I love math and am currently taking a senior level math class as a freshman.",
     image: "/rishan.png", // Replace with your image path
   },
   {
     name: "Adarsh Arvind",
     role: "Co-Founder",
-    description: "I am an experienced tutor for nuero-diverse kids, and love STEM subjects!",
+    description: "I am an experienced tutor for nuero-diverse kids, and have a passion for STEM subjects!",
     image: "/adarsh.png", // Replace with your image path
   },
 ];
