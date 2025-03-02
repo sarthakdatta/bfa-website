@@ -9,7 +9,7 @@ const founders = [
     name: "Sarthak Datta",
     role: "Co-Founder",
     description: "Hey there! I'm Sarthak. I have lots of experience teaching as I have volunteering and teaching nuero-diverse kids math for almost 2 years.",
-    image: "/images/john-doe.jpg", // Replace with your image path
+    image: "/sarthak.png", // Replace with your image path
   },
   {
     name: "Rishan Kayal",
@@ -18,10 +18,10 @@ const founders = [
     image: "/images/jane-smith.jpg", // Replace with your image path
   },
   {
-    name: "Alex Johnson",
-    role: "COO & Co-Founder",
-    description: "Alex is an operations expert who ensures our company runs smoothly. He focuses on process optimization and team collaboration.",
-    image: "/images/alex-johnson.jpg", // Replace with your image path
+    name: "Adarsh Arvind",
+    role: "Co-Founder",
+    description: "I am an experienced tutor for nuero-diverse kids, and love STEM subjects!",
+    image: "/adarsh.png", // Replace with your image path
   },
 ];
 
