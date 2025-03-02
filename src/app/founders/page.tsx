@@ -14,8 +14,8 @@ const founders = [
   {
     name: "Rishan Kayal",
     role: "Co-Founder",
-    description: "Jane is a tech enthusiast with a passion for building scalable systems. She leads our engineering team with expertise and innovation.",
-    image: "/images/jane-smith.jpg", // Replace with your image path
+    description: "Hi, I'm Rishan! I have experience teaching math at summer camps and excel in school mantaining high grades.",
+    image: "/rishan.png", // Replace with your image path
   },
   {
     name: "Adarsh Arvind",
